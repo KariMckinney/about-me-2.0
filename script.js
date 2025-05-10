@@ -1,23 +1,23 @@
 console.log("Welcome to the console")
 
-let sonicFactElement = document.getElementById("sonic-fact");
+let sonicOutputElement = document.getElementById("sonic-output");
 
-let sonicOutput = document.getElementById("sonic-output");
+let sonicFact = document.getElementById("sonic-fact");
 
-sonicOutput.addEventListener("click", sonicOutputEventHandler);
+sonicFact.addEventListener("click", sonicFactEventHandler);
 
-function  sonicOutputEventHandler(event){
+function  sonicFactEventHandler(event){
     event.preventDefault();
-    sonicFactElement.innerHTML = 'In the archie comics Sonics canon name is Olgilvie Maurice Hedgehog.'
+    sonicOutputElement.innerHTML = 'In the archie comics Sonics canon name is Olgilvie Maurice Hedgehog.'
 }
 
-let splatoonFactElement = document.getElementById("splatoon-fact");
+let splatoonOutputElement = document.getElementById("splatoon-output");
 
-let splatoonOutput = document.getElementById("splatoon-output");
+let splatoonFact = document.getElementById("splatoon-fact");
 
-splatoonOutput.addEventListener("click", splatoonOutputEventHandler);
+splatoonFact.addEventListener("click", splatoonFactEventHandler);
 
-function  splatoonOutputEventHandler(event){
+function  splatoonFactEventHandler(event){
     event.preventDefault();
-    splatoonFactElement.innerHTML = 'There are 8 agents in total within the game.'
+    splatoonOutputElement.innerHTML = 'There are 8 agents in total within the game.'
 }
