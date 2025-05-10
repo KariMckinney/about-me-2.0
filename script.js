@@ -1,19 +1,21 @@
+console.log("Welcome to the console")
+
 let sonicFactElement = document.getElementById("sonic-fact");
 
 let sonicOutput = document.getElementById("sonic-output");
 
-sonicOutput.addEventListener("click, sonicOutputEventHandler");
+sonicOutput.addEventListener("click", sonicOutputEventHandler);
 
 function  sonicOutputEventHandler(event){
     event.preventDefault();
-    sonicFactElement.innerHTML = 'In the archie comics Sonics canon name is  Olgilvie Maurice Hedgehog.'
+    sonicFactElement.innerHTML = 'In the archie comics Sonics canon name is Olgilvie Maurice Hedgehog.'
 }
 
 let splatoonFactElement = document.getElementById("splatoon-fact");
 
 let splatoonOutput = document.getElementById("splatoon-output");
 
-splatoonOutput.addEventListener("click, splatoonOutputEventHandler");
+splatoonOutput.addEventListener("click", splatoonOutputEventHandler);
 
 function  splatoonOutputEventHandler(event){
     event.preventDefault();
